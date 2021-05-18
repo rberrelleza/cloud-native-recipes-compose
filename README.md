@@ -11,4 +11,4 @@ This application takes advantage of the following parts of Okteto:
 1. [Preview Environments](https://okteto.com/docs/cloud/preview-environments/preview-environments-github) for every PR (check [.github/workflows/preview.yaml](.github/workflows/preview.yaml))
 1. [Okteto CLI](https://github.com/okteto/okteto) to develop directly in Okteto Cloud
 
-Both the api and frontend services are configured to be used with `okteto up`, try them out!
+Both the api and frontend services are configured to be used with `okteto up`. One of the APIs in the repo has a bug, why don't you use `okteto up`and try to fix it?
