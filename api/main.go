@@ -77,7 +77,7 @@ func main() {
 }
 
 func (s *Server) initDB(ctx context.Context) error {
-	data, err := recipesFS.ReadFile("hello.txt")
+	data, err := recipesFS.ReadFile("recipes.json")
 	if err != nil {
 		return err
 	}
